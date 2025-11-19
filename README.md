@@ -6,6 +6,7 @@ This project implements a **bioinformatics machine learning pipeline** to classi
 
 The core focus of this analysis is **statistical rigor**. High-dimensional genomic data (where *p* genes >> *n* samples) is prone to overfitting. This pipeline utilizes **Nested Cross-Validation** to prevent data leakage during feature selection, ensuring that the identified biomarkers and performance metrics are robust and reproducible.
 
+
 ## Key Features
 
 * **Leakage-Free Validation:** Feature selection (`SelectKBest`) is performed strictly within training folds of a Stratified 5-Fold Cross-Validation loop.
@@ -13,11 +14,15 @@ The core focus of this analysis is **statistical rigor**. High-dimensional genom
 * **Preprocessing Engine:** Handles variance filtering and Log2 transformation to normalize raw microarray intensity data.
 * **Multi-Model Benchmarking:** Compares Random Forest, SVM (RBF), and MLP Neural Networks.
 
+  
+
 ## Models 
 
 
 **Neural Network**
+
 **SVM (RBF)** 
+
 **Random Forest**
 
 ### Visualizations
