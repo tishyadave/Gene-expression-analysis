@@ -1,4 +1,4 @@
-# 🧬 Lung Cancer Detection Pipeline: Genomic Expression Analysis
+# Lung Cancer Detection Pipeline: Genomic Expression Analysis
 
 ## Project Overview
 
@@ -13,15 +13,12 @@ The core focus of this analysis is **statistical rigor**. High-dimensional genom
 * **Preprocessing Engine:** Handles variance filtering and Log2 transformation to normalize raw microarray intensity data.
 * **Multi-Model Benchmarking:** Compares Random Forest, SVM (RBF), and MLP Neural Networks.
 
-## Results
+## Models 
 
-The pipeline achieved near-perfect classification metrics, indicating a strong biological signal separating tumor and normal tissue.
 
-| Model | Accuracy | Sensitivity | Specificity | AUC |
-| :--- | :---: | :---: | :---: | :---: |
-| **Neural Network** | **1.00** | **1.00** | **1.00** | **1.00** |
-| **SVM (RBF)** | 0.99 | 1.00 | 0.96 | 0.99 |
-| **Random Forest** | 0.99 | 1.00 | 0.98 | 0.99 |
+**Neural Network**
+**SVM (RBF)** 
+**Random Forest**
 
 ### Visualizations
 
