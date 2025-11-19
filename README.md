@@ -19,13 +19,14 @@ The core focus of this analysis is **statistical rigor**. High-dimensional genom
 ## Models 
 
 
-**Neural Network**
+***Neural Network**
 
-**SVM (RBF)** 
+***SVM (RBF)** 
 
-**Random Forest**
+***Random Forest**
 
-### Visualizations
+
+## Visualizations
 
 **1. Biological Signature (Heatmap)**
 The top 15 genes show clear differential expression patterns, with distinct clusters for Normal vs. Tumor samples.
@@ -34,7 +35,8 @@ The top 15 genes show clear differential expression patterns, with distinct clus
 **2. Model Performance**
 Benchmarking metrics showing high Sensitivity (Recall) across all classifiers, critical for medical diagnostics.
 
-## 🛠️ Technical Methodology
+
+## Technical Methodology
 
 1.  **Data Loading:** Parses raw GEO Series Matrix text files.
 2.  **Variance Thresholding:** Removes constant features and the bottom 10% of low-variance genes to reduce noise.
